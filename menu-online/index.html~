@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-176119939-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+	 <!-- Site Title-->
+    <title>Duck n Fries - Menu</title>
+    <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../favicon.ico">
+       <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700%7CMerriweather+Sans">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+
+      <link rel="stylesheet" href="css/style4.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/wlb1jxk.css">
+
+    <style>.ie-panel{display: none;background-color: #1d1d1d;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff">
+
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '485487392308236');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=485487392308236&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+    	<link href='https://fonts.googleapis.com/css?family=Raleway:300,500|Arvo:700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		<!--[if lte IE 8]><style>.support-note .note-ie{display:block;}</style><![endif]-->
+
+
+
+    </head>
+    <body>
+        <div class="container">
+
+
+
+			<header>
+
+
+
+				<div class="support-note"><!-- let's check browser support with modernizr -->
+					<span class="no-cssanimations">CSS animations are not supported in your browser</span>
+					<span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+					<span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span>
+					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+
+			</header>
+
+			<section class="main">
+
+				<div id="rm-container" class="rm-container">
+
+					<div class="rm-wrapper">
+
+						<div class="rm-cover">
+
+							<div class="rm-front">
+								<div class="rm-content">
+
+									<div class="rm-logo"></div>
+									<h2>Take Away<br> Menu</h2>
+									<h3>Hindsholm <br> Gårdbutik</h3>
+
+									<a href="#" class="rm-button-open">Welcome</a>
+									<div class="rm-info">
+										<p>
+										<strong>Benji's Burger</strong><br>
+										Fynshovedvej 584, <br>
+										5390 Martofte, Denmark<br>
+										<strong>Phone Restaurant +45 6262 5251</strong><br>
+										<strong>Phone Mobile +45 3115 5327</strong><br>
+
+									</div>
+
+
+								</div><!-- /rm-content -->
+							</div><!-- /rm-front -->
+
+							<div class="rm-back">
+								<div class="rm-content">
+
+									<dl>
+                  		<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/ducknfries.jpg">Duck n Fries 95,-</a></dt>
+
+
+										<dd>Confiteret andekød sauteret i andefedt på vores håndskårede økologiske pommes frites, toppet med sprødstegt andeskind.
+Som tilbehør følger økologiske vinagrettesyltede rødløg og økologiske syltede agurker.</dd>
+
+                     		<dd><i>Confit de Canard sautéed in duck fat on top of our hand cut organic fries, topped off with crispy duck skin. Comes with organic pickled red onions and cucumbers.</i>
+                         </dd>
+
+									<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/andelår.jpg">Andelår n Fries 95,-</a></dt>
+
+
+										<dd>Confiteret og øldejspaneret andelår med vores håndskårede, økologiske pommes frites.
+Som tilbehør følger økologiske vinagrettesyltede rødløg og økologiske syltede agurker.</dd>
+
+                     		<dd><i>Confit de Canard breaded in homemade beer batter and organic breadcrumbs.
+Comes with our hand cut organic fries and organic pickled red onions and cucumbers.</i>
+                         </dd>
+
+
+                         	<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/deluxe.jpg">Duck Deluxe 95,-</a></dt>
+
+
+										<dd>Økologisk fuldkornsbrioche med hjemmelavet sennepsmayonnaise, frisk, økologisk og lokal-
+groet rucola, Confit de Canard, økologisk
+vinagrettesyltede rødløg, sprødstegt andeskind og andesauce.</dd>
+
+                     		<dd><i>Whole grain brioche with homemade mustard
+mayonnaise, fresh, organic and locally grown arugula, Confit de Canard, organic vinagrette pickled red onion, crispy duck skin and duck sauce.</i>
+                         </dd>
+
+                         <dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/duckets.jpg">Duckets 65,-</a></dt>
+
+
+     										<dd>3 Sprøde nuggets lavet af grofthakket andekød og skind, paneret i vores hjemmelavede øldej.</dd>
+
+                          		<dd><i>3 Crispy duck nuggets made from coarse ground duck
+     meat and skin, breaded with our homemade beer batter.</i>
+                              </dd>
+
+
+
+									</dl>
+
+								</div><!-- /rm-content -->
+								<div class="rm-overlay"></div>
+
+							</div><!-- /rm-back -->
+
+						</div><!-- /rm-cover -->
+
+						<div class="rm-middle">
+							<div class="rm-inner">
+								<div class="rm-content">
+
+									<dl>
+
+                      <dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/menu/mockduck.jpg">Den Veganske 115,-</a></dt>
+
+
+     									<dd>Mock Duck og veganske fries med sæsonens økologiske garniture og hjemmelavede ketchup.</dd>
+
+                          	<dd><i>Mock Duck, organic fries (Not fried in duck fat) and seasonal organich garnis</i>
+                              </dd>
+
+                      <dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/menu/mockduck.jpg">Salade a l'orange 79,-</a></dt>
+
+
+                            <dd>Anderillette mixet med abrikostern og appelsindressing på en bund af hjertesalat, friséesalat og rucola. Pyntet med croutons, parmesan, revet appelsinskal og sprødstegt andeskind</dd>
+
+                                  <dd><i>Duck rilette mixed with diced apricot and orange vinaigrette on a base of mini romaine, frisée lettuce and arugula. Garnished with croutons, parmesan, grated orange peel and crispy duck skin.</i>
+                                    </dd>
+
+                    <dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/menu/mockduck.jpg">Mock Duck a l'orange 79,-</a></dt>
+
+
+                                          <dd>Mock Duck mixet med abrikostern og appelsindressing på en bund af hjertesalat, friséesalat og rucola. Pyntet meed valnødder og revet appelsinskal. </dd>
+
+                                                <dd><i>Mock Duck mixeed with diceed apricot and orange vinaigrette in mini romaine, frisée lettuce and argula. Garnished with walnuts and grateed orange peel.</i>
+                                                  </dd>
+
+										<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/fries.jpg">Fries 49,-</a></dt>
+
+
+										<dd>Håndskårede, økologiske pommes frites
+og økologiske vinagrettesyltede rødløg & økologiske
+syltede agurker.</dd>
+
+                     		<dd><i>Hand cut organic fries and organic
+pickled red onions and cucumbers</i>
+                         </dd>
+
+                         	<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/dip.jpg">Dip 5,-</a></dt>
+
+
+										<dd>Vælg mellem Aioli, Bearnaise, Ketchup eller Chili- Mayo eller tag dem allesammen. <br><br>
+Alle råvarerne i vores dip er økologiske undtagen
+selve Sriracha chillien.</dd>
+
+                     		<dd><i>Choose between Aioli, Bearnaise, Ketchup or Chili-Mayo.
+Or select them all.
+
+All ingredients in our dip are organic except the Sriracha chilli.</i>
+                         </dd>
+
+
+									</dl>
+
+
+
+								</div><!-- /rm-content -->
+								<div class="rm-overlay"></div>
+							</div><!-- /rm-inner -->
+						</div><!-- /rm-middle -->
+
+						<div class="rm-right">
+
+							<div class="rm-front">
+
+							</div>
+
+							<div class="rm-back">
+								<span class="rm-close">Close</span>
+								<div class="rm-content">
+
+									<dl>
+
+                   	<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/wine-red.jpg">Grand Vernaux Rouge vin de Pays 35,-</a></dt>
+
+
+										<dd>Karakterfuld med passion og vedholdenhed.
+Grundlagt i 1851, Noémie Vernaux er et fint
+eksempel på de Maison de Bourgogne. 12%</dd>
+
+                     		<dd><i>Strong in character with passion and persistance.
+Founded in 1851, Noémie Vernaux is a fine example of
+de Maison de Bourgogne. 12%</i>
+                         </dd>
+
+                          	<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/wine-white.jpg">Grand Vernaux Blanc vin de Pays 35,-</a></dt>
+
+
+										<dd>Karakterfuld med passion og vedholdenhed.
+Grundlagt i 1851, Noémie Vernaux er et fint
+eksempel på de Maison de Bourgogne. 11%</dd>
+
+                     		<dd><i>Strong in character with passion and persistance.
+Founded in 1851, Noémie Vernaux is a fine example
+of de Maison de Bourgogne. 11%</i>
+                         </dd>
+
+                          	<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/beer.jpg">Kronenburg 1664 35,-</a></dt>
+
+
+										<dd>Le Première Bière Française. Grundlagt i 1664
+og skabt med rettidig omhu er Kronenburg dén
+franske øl. 5%</dd>
+
+                     		<dd><i>Le Première Bière Française, founded in 1664
+Kronenburg is the french beer, avec savoir-faire. 5%</i>
+                         </dd>
+
+                          	<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/perrier.jpg">Perrier 25,-</a></dt>
+
+
+										<dd>Naturlig mineralvand med brus, tappet fra
+kilden i Frankrig.</dd>
+
+                     		<dd><i>A carbonated natural mineral water captured at the
+source in France.</i>
+                         </dd>
+
+                          	<dt><a href="https://www.ducknfries.dk/" class="rm-viewdetails" data-thumb="https://ducknfries.dk/menu-online/images/orangine.jpg">Orangina 25,-</a></dt>
+
+
+										<dd>Sodavand med blid brus og smag af appelsin.
+’Shake the bottle, wake the drink’</dd>
+
+                     		<dd><i>Gently carbonated orange flavoured soft drink.
+’Shake the bottle, wake the drink’</i>
+                         </dd>
+									</dl>
+
+								</div><!-- /rm-content -->
+							</div><!-- /rm-back -->
+
+						</div><!-- /rm-right -->
+					</div><!-- /rm-wrapper -->
+
+				</div><!-- /rm-container -->
+
+			</section>
+
+        </div>
+		<!-- jQuery if needed -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				Menu.init();
+
+			});
+		</script>
+    </body>
+</html>
