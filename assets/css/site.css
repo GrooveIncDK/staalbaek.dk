@@ -11,7 +11,9 @@
     --carbon:  #17181a;
     --soil:    #3c2a1e;
     --growth:  #8ac755;
+    --growth-ink: #3e6626;  /* readable dark-green for text on light backgrounds */
     --mineral: #d9a23f;
+    --mineral-ink: #7a4d15; /* readable dark-amber for text on light backgrounds */
     --terracotta: #a8583d;
     --paper:   #f2f0e6;
     --white:   #ffffff;
@@ -30,7 +32,7 @@
 .page.theme-hindsholm {
     --canopy:  #2f3a26;   /* Hindsholm field green (was Stålbækgård canopy) */
     --canopy-dark: #171d13; /* matching dark shade for the gradient */
-    --mineral: #9c4530;   /* Hindsholm clay red (was Stålbækgård mineral gold) */
+    --mineral-ink: #9c4530;   /* Hindsholm clay red — light-background text only */
 }
 
 * { box-sizing: border-box; }
@@ -58,11 +60,11 @@ h1, h2, h3 { font-family: "Fraunces", serif; font-weight: 600; margin: 0; color:
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--mineral);
+    color: var(--mineral-ink);
     display: block;
     margin-bottom: 14px;
 }
-.eyebrow .layer-num { color: var(--growth); }
+.eyebrow .layer-num { color: var(--growth-ink); }
 
 :focus-visible { outline: 2px solid var(--growth); outline-offset: 3px; }
 
@@ -140,6 +142,7 @@ nav.primary-links a.nav-cta:hover { background: var(--canopy-dark); }
 }
 .page-header .wrap { position: relative; z-index: 1; max-width: 780px; }
 .page-header .eyebrow { color: var(--mineral); }
+.page-header .eyebrow .layer-num { color: var(--growth); }
 .page-header h1 { font-size: clamp(2rem, 4.5vw, 3rem); color: #fff; margin-bottom: 12px; }
 .page-header .lead { font-size: 1.08rem; color: rgba(243,243,236,0.85); max-width: 62ch; }
 .crumb { font-family: "IBM Plex Mono", monospace; font-size: 0.72rem; color: rgba(243,243,236,0.6); margin-bottom: 18px; }
@@ -169,10 +172,12 @@ section { padding: 72px 0; }
 .on-white { background: var(--white); }
 .on-canopy { background: var(--canopy); color: #f3f3ec; }
 .on-canopy .eyebrow { color: var(--mineral); }
+.on-canopy .eyebrow .layer-num { color: var(--growth); }
 .on-canopy h2 { color: #fff; }
 .on-canopy p { color: rgba(243,243,236,0.78); }
 .on-soil { background: var(--soil); color: #f1e9df; }
 .on-soil .eyebrow { color: var(--mineral); }
+.on-soil .eyebrow .layer-num { color: var(--growth); }
 .on-soil h2 { color: #fff; }
 .on-soil p { color: rgba(241,233,223,0.75); }
 
@@ -182,6 +187,8 @@ section { padding: 72px 0; }
 .prose { max-width: 760px; }
 .prose p { color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 18px; line-height: 1.75; }
 .prose p:last-child { margin-bottom: 0; }
+.on-soil .prose p { color: rgba(241,233,223,0.75); }
+.on-canopy .prose p { color: rgba(243,243,236,0.78); }
 .content-figure { border-radius: 14px; overflow: hidden; margin-bottom: 28px; }
 .content-figure img { width: 100%; height: auto; display: block; }
 .content-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
