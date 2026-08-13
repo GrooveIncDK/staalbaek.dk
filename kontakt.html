@@ -1,125 +1,332 @@
 <!DOCTYPE html>
-
-<html lang="da">
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Kontakt — Stålbækgård</title>
-<link href="images/shared/co2-neutral-stamp.png" rel="icon"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500;1,600&amp;family=IBM+Plex+Mono:wght@500;600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="assets/css/site.css" rel="stylesheet"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Kontakt</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/rd-mailform.css"/>
+    <link rel="stylesheet" href="css/google-map.css">
+
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src='js/device.min.js'></script>
 </head>
 <body>
 <div class="page">
-<div aria-hidden="true" class="depth-rule"></div>
-<header class="site-nav">
-<div class="wrap nav-row">
-<a class="wordmark" href="index.html">
-<img alt="Stålbækgård" src="images/shared/logo.png"/>
-<span class="wordmark-text">
-<span class="name"><span data-i18n="s1">Stålbækgård</span></span>
-<span class="sub"><span data-i18n="s2">Est. 1812 · Martofte, Fyn</span></span>
-</span>
-</a>
-<nav class="primary-links" id="primaryNav">
-<a href="index.html"><span data-i18n="s3">Hjem</span></a>
-<a href="nutid/index.html"><span data-i18n="s4">Nutid</span></a>
-<a href="gaardbutik/index.html"><span data-i18n="s5">Gårdbutik</span></a>
-<a href="fortid/index.html"><span data-i18n="s6">Fortid</span></a>
-<a href="fremtid/index.html"><span data-i18n="s7">Fremtid</span></a>
-<a class="current" href="kontakt.html"><span data-i18n="s8">Kontakt</span></a>
-</nav>
-<div class="nav-right">
-<div aria-label="Language" class="lang-switch" role="group">
-<button data-lang-btn="da" type="button"><span data-i18n="s9">DA</span></button>
-<button data-lang-btn="en" type="button"><span data-i18n="s10">EN</span></button>
-<button data-lang-btn="de" type="button"><span data-i18n="s11">DE</span></button>
-</div>
-<button aria-expanded="false" class="menu-toggle" id="mobileToggle"><span data-i18n="s12">☰</span></button>
-</div>
-</div>
-</header>
-<div class="page-header">
-<div class="wrap">
-<div class="crumb"><a href="index.html"><span data-i18n="s3">Hjem</span></a> <span data-i18n="s206">/ Kontakt</span></div>
-<span class="eyebrow"><span data-i18n="s8">Kontakt</span></span>
-<h1><span data-i18n="s207">Hindsholm Gårdbutik &amp; Delikatesse</span></h1>
-<p class="lead"><span data-i18n="s208">Fynshovedvej 584, 5390 Martofte</span></p>
-</div>
-</div>
-<section class="on-white">
-<div class="wrap">
-<div class="card-grid cols-2">
-<div class="topic-card" style="cursor:default;">
-<div class="info">
-<span class="eyebrow" style="color:var(--canopy);"><span data-i18n="s209">Butik</span></span>
-<h3><span data-i18n="s38">Stålbæk Produktion ApS</span></h3>
-<p><span data-i18n="s36">Fynshovedvej 584</span><br/><span data-i18n="s37">5390 Martofte</span></p>
-<p style="margin-top:10px;"><a href="tel:+4531155327" style="color:var(--canopy); font-weight:600;"><span data-i18n="s39">+45 3115 5327</span></a></p>
-</div>
-</div>
-<div class="topic-card" style="cursor:default;">
-<div class="info">
-<span class="eyebrow" style="color:var(--canopy);"><span data-i18n="s210">Gård</span></span>
-<h3><span data-i18n="s35">Stålbæk Gård ApS</span></h3>
-<p><span data-i18n="s36">Fynshovedvej 584</span><br/><span data-i18n="s37">5390 Martofte</span></p>
-<p style="margin-top:10px;"><a href="tel:+4531155327" style="color:var(--canopy); font-weight:600;"><span data-i18n="s39">+45 3115 5327</span></a></p>
-</div>
-</div>
-</div>
-<div class="section-head" style="margin-top:52px;">
-<span class="eyebrow"><span data-i18n="s211">Åbningstider</span></span>
-<h2><span data-i18n="s212">Besøg os</span></h2>
-</div>
-<div class="placeholder-note" style="display:block; font-size:0.92rem; padding:16px 20px; max-width:640px;">
-                <span data-i18n="s213">De aktuelle åbningstider for boden og gårdbutikken er under opdatering. Ring venligst på
-                +45 3115 5327 for at høre, hvornår vi har åbent, indtil denne side er opdateret med faste tider.</span>
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+        <div id="stuck_container" class="stuck_container">
+            <div class="container">
+
+                <nav class="navbar navbar-default navbar-static-top ">
+
+                    <div class="navbar-header">
+                        <h1 class="navbar-brand">
+                            <a href="./"></a>
+                            <small>
+                              
+                            </small>
+                        </h1>
+                    </div>
+
+                    <a class="fa-bars  trig "></a>
+
+                    <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
+                        <li class="active">
+                            <a href="./">Hjem</a>
+                        </li>
+                        
+                        <li class="dropdown">
+                            <a href="omos.html">Om os</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="hvem_er_vi.html">Hvem er vi</a>
+                                </li>
+                                <li>
+                                    <a href="film.html">Videos</a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="vores_valg.html">Vores Valg</a>
+                                </li>
+                                <li>
+                                    <a href="bæredyg.html">Bæredygtighed</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                            
+                        <li class="dropdown">
+                            <a href="dyrene.html">Dyrene</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="koer.html">Køerne</a>
+                                </li>
+                                <li>
+                                    <a href="gris.html">Grisene</a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="fjer.html">Fjer & Æg</a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+								<li class="dropdown">
+                            <a href="butik.html">Gårdbutikken</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="products.html">Produkter</a>
+                                </li>
+                                <li>
+                                    <a href="restaurant.html">Restaurant</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="opskrift.html">Opskrifter</a>
+                                </li>
+                                <li>
+                                    <a href="frugt.html">Frugt & Grønt</a>
+                                </li>
+                                <li>
+                                    <a href="gaard.html">Gården</a>
+                                </li>
+                                <li>
+                                    <a href="dyr.html">De Øvrige Dyr</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a href="restaurant.html">Take-Away</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="menu-online/index.html">Menu</a>
+                                </li>
+                                <li>
+                                    <a href="open.html">åbningstider</a>
+                                </li>
+                                 </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="kontakt.html">Kontakt</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="https://www.findsmiley.dk/963213">Smiley report</a>
+                                </li>
+                                
+                                 </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <hr>
             </div>
+        </div>
+    </header>
+
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+
+    <main>
+
+        <section class="well well2 border-bottom">
+            <div class="container">
+                <div class="map">
+                
+                    <div id="google-map" class="map_model" data-zoom="11"></div>
+                    <ul class="map_locations">
+                    
+                        <li data-x="10.653895" data-y="55.555277" data-basic="images/gmap_marker.png"
+                            data-active="images/gmap_marker_active.png">
+                            
+                            <p>Hindsholm Gærdbutik & Delikatesse<br/> <span>Tel. 3115 5327</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="well well6 center-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+
+                        <h3 class="">
+                            addresses
+                        </h3>
+
+                        <address class="contact-info">
+
+                            <p class="h6 txt-sec">
+                                ADDRESS Butik:
+                            </p>
+
+                            <p>
+                                Stålbæk Produktion ApS<br/>
+                                Fynshovedvej 584, 5390 Martofte.
+                            </p>
+
+                            <p class="h6 txt-sec">
+                                Telephones:
+                            </p>
+                            
+                            <a href='callto:#'> +45 3115 5327</a>
+
+                            <p class="h6 txt-sec">
+                                ADDRESS Gård:
+                            </p>
+
+                            <p>
+                                Stålbæk Gård ApS<br/>
+                                Fynshovedvej 584, 5390 Martofte.
+                                <a href="http://www.staalbaek.dk">www.staalbaek.dk</a>
+                            </p>
+                        </address>
+
+                    </div>
+
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <h3 class="">
+                            feedback
+                        </h3>
+
+
+                        <form class='rd-mailform' method="post" action="bat/rd-mailform.html" data-type="contact">
+                            <div class="form-group left-sm">
+                                <label data-add-placeholder for="mailform-input-name">
+                                    <input id="mailform-input-name"
+                                           placeholder="Name*"
+                                           type="text"
+                                           name="name"
+                                           data-constraints="@NotEmpty @LettersOnly"/>
+                                </label>
+                            </div>
+
+                            <div class="form-group left-sm">
+                                <label data-add-placeholder for="mailform-input-email">
+                                    <input id="mailform-input-email"
+                                           placeholder="Email*"
+                                           type="text"
+                                           name="email"
+                                           data-constraints="@NotEmpty @Email"/>
+                                </label>
+                            </div>
+
+                            <div class="form-group left-sm">
+                                <label data-add-placeholder for="mailform-input-website">
+                                    <input id="mailform-input-website"
+                                           placeholder="Website"
+                                           type="text"
+                                           name="website"
+                                           data-constraints=""/>
+                                </label>
+                            </div>
+
+                            <div class="form-group textarea left-sm">
+                                <label data-add-placeholder for="mailform-input-textarea">
+                      <textarea id="mailform-input-textarea"
+                                name="message"
+                                placeholder="Message*"
+                                data-constraints="@NotEmpty"></textarea>
+                                </label>
+                            </div>
+
+
+                            <div class="form-group btn-wr">
+                                <button class="btn btn-default" type="submit">Submit</button>
+
+                                <span class="lead text-primary">* required fields</span>
+
+                                <div class="mfInfo"></div>
+
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!--========================================================
+                            FOOTER
+    =========================================================-->
+<footer  class="border-off">
+        <section class="center-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-4 col-sm-4 col-xs-12">
+                        <p class="rights">
+                            <span class="text-uppercase txt-sec"></span> Stålbæk Gård ApS &#169; <span
+                                id="copyright-year"></span>
+                            <a href="privacy.html">Privacy policy</a>
+                            
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <a class="lead" href="callto:#">+45 3115 5327</a><br/>
+                        <address>Fynshovedvej 584, Martofte 5390</address>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <ul class="inline-list text-right center-md">
+                            <li>
+                                <a href="http://www.facebook.com/hindsholmgaardbutik" class="fa fa-facebook">facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/hindsholmdeli" class="fa fa-twitter">twitter</a>
+                            </li>
+                            <li>
+                                <a href="https://dk.pinterest.com/williamson6049/" class="fa  fa-instagram">pintrest</a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/u/0/116240004115477545645/posts" class="fa  fa-google-plus">google-plus</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 </div>
-</section>
-<footer class="site-footer">
-<div class="wrap">
-<div class="footer-grid">
-<div>
-<span class="eyebrow"><span data-i18n="s34">Gården</span></span>
-<div class="entity">
-<img alt="" class="entity-mark" src="images/shared/hindsholm-stalbaek-gaard.png"/>
-<span><strong><span data-i18n="s35">Stålbæk Gård ApS</span></strong>
-                        <span data-i18n="s36">Fynshovedvej 584</span><br/><span data-i18n="s37">5390 Martofte</span></span>
-</div>
-<div class="entity">
-<img alt="" class="entity-mark" src="images/shared/hindsholm-stalbaek-produktion.png"/>
-<span><strong><span data-i18n="s38">Stålbæk Produktion ApS</span></strong>
-                        <span data-i18n="s36">Fynshovedvej 584</span><br/><span data-i18n="s37">5390 Martofte</span></span>
-</div>
-<a href="tel:+4531155327"><span data-i18n="s39">+45 3115 5327</span></a>
-</div>
-<div>
-<span class="eyebrow"><span data-i18n="s40">Gå til</span></span>
-<div class="footer-links">
-<a href="nutid/index.html"><span data-i18n="s4">Nutid</span></a>
-<a href="gaardbutik/index.html"><span data-i18n="s5">Gårdbutik</span></a>
-<a href="fortid/index.html"><span data-i18n="s6">Fortid</span></a>
-<a href="fremtid/index.html"><span data-i18n="s7">Fremtid</span></a>
-<a href="https://www.yourfootprint.uk"><span data-i18n="s41">Your Footprint</span></a>
-</div>
-</div>
-<div>
-<span class="eyebrow"><span data-i18n="s42">Følg os</span></span>
-<div class="footer-links">
-<a href="http://www.facebook.com/hindsholmgaardbutik"><span data-i18n="s43">Facebook</span></a>
-<a href="https://twitter.com/hindsholmdeli"><span data-i18n="s44">Twitter</span></a>
-<a href="https://dk.pinterest.com/williamson6049/"><span data-i18n="s45">Pinterest</span></a>
-</div>
-</div>
-</div>
-<div class="footer-bottom"><span data-i18n="s46">© Stålbæk Gård ApS · Stålbæk Produktion ApS</span></div>
-</div>
-</footer>
-</div>
-<script src="assets/js/translations.js"></script>
-<script src="assets/js/site.js"></script>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+<!-- </script> -->
+
+
 </body>
 </html>
