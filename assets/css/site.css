@@ -106,7 +106,18 @@ nav.primary-links a.nav-cta:hover { background: var(--canopy-dark); }
     nav.primary-links { display: none; }
     .menu-toggle { display: inline-flex; background: none; border: 1px solid var(--line); padding: 8px 12px; font-size: 0.85rem; cursor: pointer; border-radius: 6px; }
 }
-
+@media (max-width: 520px) {
+    .wordmark { gap: 6px; }
+    .wordmark img { height: 26px; }
+    .wordmark .name { font-size: 1rem; }
+    .wordmark .sub { font-size: 0.52rem; }
+    .lang-switch { font-size: 0.58rem; }
+    .lang-switch button { padding: 4px 6px; }
+    .nav-right { gap: 6px; }
+    .menu-toggle { padding: 6px 9px; }
+}
+.canopy-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 50px; align-items: center; }
+@media (max-width: 780px) { .canopy-grid { grid-template-columns: 1fr; } }
 /* language switch */
 .nav-right { display: flex; align-items: center; gap: 14px; }
 .lang-switch {
